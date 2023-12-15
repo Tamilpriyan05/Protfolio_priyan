@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <title>Tamilpriyan</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+    <div class=" bg-img">
+
+
+        <header class="headercontainer">
+            <div class="box">
+                <div class="flex navbox">
+                    <div class="navbox1">
+                        <h2>
+                            TAMIL<span class="headdot">
+
+                            </span> </h2>
+                        <p>PRIYAN</p>
+                    </div>
+                    <div id="navlinks" class="flex navbox2">
+                        <a onclick="linkclick('home')" class="link active" id="home1" href="#home">Home </a>
+                        <a onclick="linkclick('about')" class="link" id="about1" href="#about">About</a>
+                        <a onclick="linkclick('project')" class="link" id="project1" href="#project">Projects</a>
+                        <a onclick="linkclick('contact')" class="link" id="contact1" href="#contact">Contact</a>
+
+                    </div>
+                    <p onclick="bars()" class="bars"><i class="fa-solid fa-bars"></i></p>
+                </div>
+            </div>
+        </header>
+        <section id="home">
+            <div class="container">
+                <div class="box">
+                    <div class="hometext">
+
+                        <h3>WELCOME TO MY WORLD</h3>
+                        <h1>hi, i'm <span>tamilpriyan</span> <br> from thanjavur.</h1>
+
+                        <p>junior frontend web developer</p>
+                        <p>To acquire a good position in reputed organization where
+                            I can prove and improve my skills and be assert to the
+                            organization I belong while growing professionally.</p>
+
+                        <a class="aboutbtn" href="#about"><span>About me</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <div class="box">
+                <h2 class="titleheading">About me,</h2>
+                <div class="aboutbox">
+                    <div class="aboutimg">
+
+                        <div class="profileimg">
+                            <img class="profileimg" src="./images/priyanimg.jpg" alt="Priyan">
+                        </div>
+
+                        <div class="aboutimg1">
+
+                            <img src="./images/sign.png" alt="" height="100px">
+
+                            <p>Tamilpriyan</p>
+                        </div>
+                    </div>
+                    <div class="abouttext">
+                        <div class="aboutself">
+                            <h2>I'm Tamilpriyan and Junior frontend web developer </h2>
+                            <p>Hi! My name is <span>Tamilpriyan.</span> I am basically from Thanjavur. I did my
+                                graduation in BE ECE Karpagam acadmey of higher education, CBE
+                                and also I completed a certification course in React JS from Fita academy Chennai. My
+                                strengths are I'm very passionate, dedicated, time management and team Work.
+
+                            </p>
+                        </div>
+                        <div class="personallinks">
+                            <p class="perbtn perbtn1" id="personalbtn1" onclick="aboutlink('personal')">personal details
+                            </p>
+                            <p class="perbtn" id="educationbtn1" onclick="aboutlink('education')">Education</p>
+                            <p class="perbtn" id="intrestbtn1" onclick="aboutlink('intrest')">interest</p>
+                        </div>
+                        <div class="personaldetails personalclass" id="personal1">
+                            <div class="details1">
+                                <ul>
+                                    <li><i class="fa-solid fa-cake-candles"></i><span>birthday:</span> 24/06/2001</li>
+                                    <li><i class="fa-solid fa-calendar-days"></i><span>age:</span> 22</li>
+                                    <li><i class="fa-solid fa-graduation-cap"></i><span>degree:</span> BE</li>
+
+                                    <li><i class="fa-solid fa-book-open"></i><span>study:</span> Karpagam Unviresity
+                                    </li>
+
+                                </ul>
+                                <ul>
+                                    <li><i class="fa-solid fa-envelope"></i><span>mail:</span> priyanpri555@gmail.com
+                                    </li>
+
+                                    <li><i class="fa-solid fa-location-dot"></i><span>location:</span>
+                                        Orthanadu,Thanjavur</li>
+
+                                    <li><i class="fa-solid fa-phone"></i><span>phone:</span> 9600902178</li>
+                                    <li><i class="fa-solid fa-gamepad"></i><span>interest:</span> Handball</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="personaldetails" id="education1">
+                            <div class="educationdetails">
+                                <h3>Fita academy</h3>
+                                <div class="educationdetails1">
+                                    <h4>React js</h4>
+                                    <p>3 Month</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="educationdetails">
+                                <h3>Karpagam academy of higher education</h3>
+                                <div class="educationdetails1">
+                                    <h4>B.E (ECE)</h4>
+                                    <p>2019-2023</p>
+                                    <p>7.51 CGPA</p>
+                                </div>
+                            </div>
+                            <div class="educationdetails">
+                                <h3>nav bharat matric hr sec school</h3>
+                                <div class="educationdetails1">
+                                    <h4>HSC</h4>
+                                    <p>2018-2019</p>
+                                    <p>53.5%</p>
+                                </div>
+                            </div>
+                            <div class="educationdetails">
+                                <h3>arunodhaya higher secondary school</h3>
+                                <div class="educationdetails1">
+                                    <h4>SSLC</h4>
+                                    <p>2016-2017</p>
+                                    <p>93%</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="personaldetails" id="intrest1">
+                            <div>
+                                <ul>
+                                    <li>Interested in sports, and I was a Handball player.</li>
+                                    <li>Hanging out with friends.</li>
+                                    <li>Listening to music.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <div class="container">
+            <div class="box">
+                <h2 class="titleheading"> Projects</h2>
+                <div class="projectbox">
+                    <div class="projectbox1">
+                        <div class="projecttext">
+                            <img class="projectimg" src="./images/ecomerce.jpg" alt="E-commerce">
+                            <div class="projecttext1">
+                                <h3>E-Commerce website design</h3>
+                                <p>By using REACT JS make a simple E-commerce project for Electronic store</p>
+                                <button id="ecomercebtn1" onclick="viewmore('ecomerce')">view more</button>
+                                <p id="ecomerce1" class="lessnone">
+                                    In this project, React will be used to create the frontend of the e-commerce
+                                    website.
+                                    In this e-commerce project, Redux will help store and manage data related to the
+                                    shopping cart and user interactions.
+                                    To create a more responsive and faster user experience, you can optimize the
+                                    application's performance.
+                                    <br> <span onclick="lessmore('ecomerce')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="projecttext">
+
+                            <img class="projectimg" src="./images/imggallery.jpg" alt="image-gallery">
+                            <div class="projecttext1">
+                                <h3>Nature image gallery</h3>
+                                <p>By using React js make a nature image gallery webpage.</p>
+                                <button id="gallerybtn1" onclick="viewmore('gallery')">view more</button>
+                                <p id="gallery1" class="lessnone">
+
+                                    When a user clicks on one of the specified names, the application will respond by
+                                    displaying a separate image associated with that particular category. For example,
+                                    if the user clicks on "mountains," the application will show an image of mountains,
+                                    and if they click on "sea," it will display a sea-related image.
+                                    In this context, it could mean that the application is designed to load and display
+                                    images quickly when a category is selected, providing a smooth and responsive user
+                                    interaction.
+                                    <br> <span onclick="lessmore('gallery')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="projecttext">
+                            <img class="projectimg" src="./images/spotify.jpg" alt="spotify">
+                            <div class="projecttext1">
+                                <h3>By using HTML,CSS and JAVASCRIPT make a Spotify landing clone page</h3>
+                                <p>The project aims to replicate the visual design and layout of the Spotify music
+                                    streaming service's landing page.</p>
+                                <button id="spotifybtn1" onclick="viewmore('spotify')">view more</button>
+                                <p id="spotify1" class="lessnone">
+                                    This project involves creating a Spotify landing page using HTML, CSS, and
+                                    JavaScript. The primary goal is to design a landing page that emulates the look and
+                                    feel of the Spotify music streaming service. The project will prioritize a
+                                    responsive design to ensure the page adapts seamlessly to various screen sizes,
+                                    making it accessible and visually appealing on desktops, tablets, and mobile
+                                    devices.
+                                    <br> <span onclick="lessmore('spotify')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="projectbox1">
+                        <div class="projecttext">
+
+                            <img class="projectimg" src="./images/slak.jpg" alt="slak">
+                            <div class="projecttext1">
+                                <h3>Slack clone page</h3>
+                                <p>By using HTML & CSS make a slack website clone page.</p>
+                                <button id="slackbtn1" onclick="viewmore('slack')">view more</button>
+                                <p id="slack1" class="lessnone">
+                                    This project involves the development of a web page that closely resembles the
+                                    layout and design of the Slack messaging platform's website using HTML and CSS. The
+                                    primary focus of this project is to create a responsive and visually authentic Slack
+                                    clone web page that adapts seamlessly to various screen sizes, including desktops,
+                                    tablets, and mobile devices.
+                                    <br> <span onclick="lessmore('slack')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="projecttext">
+                            <img class="projectimg" src="./images/tolist.jpg" alt="to-do-list">
+                            <div class="projecttext1">
+                                <h3>T0-D0-List</h3>
+                                <p>By using HTML, CSS& JAVASCRIPT make a Todolist card</p>
+                                <button id="tolistbtn1" onclick="viewmore('tolist')">view more</button>
+                                <p id="tolist1" class="lessnone">
+                                    This project involves building a To-Do List card using HTML, CSS, and JavaScript.
+                                    The To-Do List card will allow users to add and manage tasks by inputting task
+                                    values, marking them as completed when clicked, and providing a user-friendly
+                                    interface for task management.
+                                    <br> <span onclick="lessmore('tolist')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="projecttext">
+                            <img class="projectimg" src="./images/wheathercard.jpg" alt="wheathercard">
+                            <div class="projecttext1">
+                                <h3>Weather App card</h3>
+                                <p>By using HTML, CSS & JAVASCRIPT</p>
+                                <button id="wheathercardbtn1" onclick="viewmore('wheathercard')">view more</button>
+                                <p id="wheathercard1" class="lessnone">
+                                    This project involves creating a weather information web page using HTML, CSS, and
+                                    JavaScript. The web page will utilize a weather API to fetch and display the current
+                                    weather in a specified city, including details like temperature and humidity. The
+                                    goal is to provide users with up-to-date weather information in a user-friendly
+                                    format.
+                                    <br> <span onclick="lessmore('wheathercard')">Hide</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="box">
+                <h2 class="titleheading">Contact us,</h2>
+
+
+
+
+
+
+                <div class="contactbox">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2996.021921554552!2d79.34738413509274!3d10.580081457939423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDM0JzU0LjciTiA3OcKwMjAnNDUuOCJF!5e0!3m2!1sen!2sin!4v1698992661054!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+                    <div class="contactdetails">
+                        <div class="contactbox2">
+                            <div class="form">
+                                <h2>contact form</h2>
+                                <form id="submit">
+                                    <div class="inputgroup">
+                                        <label>Your name</label>
+                                        <input id="username" type="text" />
+
+
+                                    </div>
+                                    <div class="inputgroup">
+                                        <label>Phone number</label>
+                                        <input id="phonenumber" type="tel" maxlength="10" />
+
+
+                                    </div>
+                                    <div class="inputgroup">
+                                        <label>Email</label>
+                                        <input id="email" type="email" />
+
+                                    </div>
+                                    <div class="inputgroup">
+                                        <label>subject</label>
+                                        <input id="subject" type="text" />
+
+
+                                    </div>
+                                    <div class="inputgroup">
+                                        <label>message *</label>
+                                        <input id="message" type="text" />
+
+
+                                    </div>
+                                    <div class="sumbitbtn">
+
+                                        <button type="submit" class="button-82-pushable" role="button">
+                                            <span class="button-82-shadow"></span>
+                                            <span class="button-82-edge"></span>
+                                            <span class="button-82-front text">
+                                                submit
+                                            </span>
+                                        </button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="popup">
+                            <div class="popupflex">
+                                <div class="confrommessgae">
+                                    <h3>Form submitted successfully! <br>Thank you for your submission.</h3>
+                                    <button onclick="conformmessage()">OK</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container blackbg">
+            <div class="box">
+                <div class="contactbox1">
+
+                    <div class="address-box">
+
+
+                        <div class="footerbox">
+                            <p>R. Tamilpriyan <br>
+                                S/O K. Ramamurthi <br>
+                                123, vandaiyar street,<br>
+                                Thirumangalakkottai East,<br>
+                                Orathanadu(TK) <br>
+                                Thanjavur(DD) <br>
+                                614-905</p>
+                        </div>
+
+                        <div class="footerbox">
+                            <p><i class="fa-solid fa-envelope"></i> priyanpri555@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone-flip"></i>9600902178</p>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/_priyan__05/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tamilpriyan-r-95b7721a6/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

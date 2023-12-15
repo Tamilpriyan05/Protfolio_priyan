@@ -1,0 +1,133 @@
+.projectbox{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 30px;
+   
+}
+
+.projectbox1{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.projectimg{
+    width: 430px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+}
+
+.projecttext{
+    width: 450px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+   
+}
+.projecttext h3{
+   margin: 10px 0px;
+}
+.projecttext p{
+   margin-bottom: 10px;
+}
+.lessnone{
+    display: none;
+}
+.viewmore{
+    display: block;
+}
+.projecttext1{
+    margin-top: -5px !important;
+    width: 410px;
+    background-color: rgb(251, 251, 251);
+    padding: 10px;
+}
+.projecttext button{
+     border: none;
+     background-color: transparent;
+     font-size: 16px;
+     color: rgb(0, 177, 30);
+}
+.projecttext button:hover{
+    color: #f7b318 ;
+}
+.projecttext p span{
+    color: #f7b318 ;
+    line-height: 40px;
+    cursor: pointer;
+  
+    font-size: 20px;
+    
+}
+.projecttext p span:hover{
+    color:rgb(0, 177, 30); ;
+}
+
+
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .projectbox1{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+       
+    }
+    .projectimg{
+        width: 300px;
+        
+    }
+    
+    .projecttext{
+        width: 320px;
+       
+       
+    }
+    .projecttext1{
+      
+        width: 280px;
+       
+}
+}
+@media screen and (max-width:768px) and (min-width:576px) {
+    .projectbox1{
+        width: 100%;
+        
+       
+    }
+    .projectbox{
+        display: block;
+        
+        
+     }
+}
+@media screen and (max-width:576px) {
+    .projectbox1{
+        width: 100%;
+        
+       
+    }
+    .projectbox{
+        display: block;
+        
+        
+     }
+     .projectimg{
+        width: 280px;
+        
+    }
+    
+    .projecttext{
+        width: 300px;
+       
+       
+    }
+    .projecttext1{
+      
+        width: 260px;
+       
+}
+    
+}

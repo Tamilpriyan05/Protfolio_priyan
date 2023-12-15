@@ -1,0 +1,349 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    scroll-behavior: smooth;
+   
+}
+body{
+    overflow-x: hidden;
+ 
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+
+
+p{
+   
+    font-family: 'Dosis', sans-serif;
+}
+.titleheading{
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  
+    padding: 10px;
+    text-transform: uppercase;
+}
+.headercontainer{
+    
+    padding: 8px 0px;
+   
+   z-index: 100;
+    
+}
+.headcontainerscroll{
+     position: fixed;
+     width: 100%;
+     background-color: rgb(32, 32, 32);
+     color: rgb(255, 255, 255);
+}
+.bg-img{
+    
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 750px;
+    
+}
+.box{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.flex{
+    display: flex;
+}
+.navbox{
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.navbox1{
+      width: 30%;
+      position: relative;
+}
+.navbox2{
+      width: 70%;
+      justify-content: space-evenly;
+      
+}
+.perbtn1{
+    color: rgb(0, 177, 30);
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+.navbox1 h2{
+   
+    font-size: 30px;
+    color: rgb(0, 177, 30);
+}
+.navbox1 p{
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    left: 25%;
+    color: #f7b318;
+}
+.headdot{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-left: 5px;
+    border-bottom-right-radius: 90%;
+    background-color: rgb(0, 177, 30);
+}
+.navbox2 a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.link:hover{
+    color:#f7b318 !important;
+}
+.active{
+       color:#f7b318 !important;
+       font-size: 20px !important;
+       font-weight: 700 !important;
+}
+
+.bars{
+    display: none;
+    
+}
+.bars i{
+    color: #f7b318;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+   
+    .box{
+       padding: 0px 10px;
+        
+    } 
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+     
+     .bars{
+        display: block;
+        
+     }
+     .bg-img{
+    
+        
+        background-position: center;
+       
+        
+    }
+     .box{
+        padding: 0px 10px;
+         
+     } 
+     
+    .navbox1 p{
+        display: none;
+    }
+    .navbox2{
+        display:inline-block;
+        position: fixed;
+        top: 70px;
+        right:-1000px;
+        z-index: 99px;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        height: 100vh;
+        transition: 1s;
+       
+    }
+    .navbox2-1{
+        right: 0px;
+    }
+    .navbox2 a{
+        display: block;
+        padding: 30px 0px;
+
+        
+    }
+    .navbox2 a:hover{
+          background-color: rgb(122, 122, 122);
+          color: #f7b318;
+    }
+    
+}
+@media screen and (max-width:768px) and (min-width:576px) {
+    #home{
+        padding-top:120px !important;
+    }
+     .bars{
+        display: block;
+     }
+     .box{
+        padding: 0px 10px;
+         
+     } 
+     .bg-img{
+    
+        
+        background-position: right;
+       
+        
+    }
+     
+    .navbox1 p{
+        left: 38%;
+    }
+    .navbox2{
+        display:inline-block;
+        position: fixed;
+        top: 70px;
+        right:-1000px;
+        z-index: 99px;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        height: 100vh;
+        transition: 1s;
+       
+    }
+    .navbox2-1{
+        right: 0px;
+    }
+    .navbox2 a{
+        display: block;
+        padding: 30px 0px;
+
+        
+    }
+    .navbox2 a:hover{
+          background-color: rgb(122, 122, 122);
+          color: #f7b318;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    #home{
+        padding-top:70px !important ;
+    }
+     .bars{
+        display: block;
+     }
+     .box{
+        padding: 0px 15px;
+         
+     } 
+     .bg-img{
+    
+        
+        background-position: right;
+       
+        
+    }
+     
+    .navbox1 p{
+       display: none;
+    }
+    .navbox2{
+        display:inline-block;
+        position: fixed;
+        top: 70px;
+        right:-1000px;
+        z-index: 99px;
+        background-color: rgb(0, 0, 0);
+       
+        text-align: center;
+        height: 100vh;
+        transition: 1s;
+       
+    }
+    .navbox2-1{
+        right: 0px;
+    }
+    .navbox2 a{
+        display: block;
+        padding: 30px 0px;
+
+        
+    }
+    .navbox2 a:hover{
+          background-color: rgb(122, 122, 122);
+          color: #f7b318;
+    }
+  
+    .navbox1 p{
+        display: none;
+    }
+    
+}
+
+
+
+
+/* CSS */
+.aboutbtn {
+  appearance: none;
+  background-color:#f7b318;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.aboutbtn:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: rgb(0, 177, 30);
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.aboutbtn:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.aboutbtn:after {
+  background-color: #FFFFFF;
+}
+
+.aboutbtn span {
+  z-index: 1;
+  position: relative;
+}

@@ -1,0 +1,55 @@
+
+
+#home{
+    padding-top:150px ;
+}
+.container{
+    padding: 50px 0px;
+}
+.hometext{
+      text-transform: capitalize;
+      margin-left: -3000px;
+      transition: 0.3s;
+}
+.hometextscroll{
+    margin-left: 0px;
+}
+.hometext h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+    color: white;
+}
+.hometext h1{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 5px 0px;
+}
+.hometext h1 span{
+    font-size: 45px;
+    color: #00b11e;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.hometext p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding: 5px 0px;
+    margin-bottom: 30px;
+    color: white;
+}
+/* .hometext a{
+   
+    border: none;
+    padding: 10px 20px ;
+    font-size: 18px;
+   
+    background-color: #f7b318;
+    
+}
+.hometext a:hover{
+    background-color: #00b11e;
+} */
+

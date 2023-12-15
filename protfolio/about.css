@@ -1,0 +1,239 @@
+#about{
+   
+    background-color: rgba(175, 175, 175, 0.377);
+   
+}
+
+.aboutbox{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px 0px;
+}
+.aboutimg{
+    width: 28%;
+    border-right: solid rgb(154, 154, 154) 3px;
+}
+.abouttext{
+    width: 72%;
+    padding-left: 10px;
+    
+    /* padding: 10px; */
+}
+.personallinks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    border-top: solid 1px grey;
+    padding-top: 10px;
+   
+    
+}
+.personallinks p{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-right: 15px;
+    border-right:solid 1px ;
+}
+.personallinks p:hover{
+     color: #f7b318;
+}
+.personaldetails{
+    display: none;
+    animation: fade 1.5s;
+    margin-top: 10px;
+}
+
+@keyframes fade {
+    from{
+       opacity: .4;
+    }
+    to{
+       opacity: 1;
+    }
+   
+}
+.personalclass{
+    display: block;
+}
+.details1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.details1 li{
+    line-height: 50px;
+}
+
+.details1 li span{
+        font-weight: 600;
+        width: 100%;
+        margin-right: 10px;
+        text-align:center ;
+        text-transform: capitalize;
+}
+.details1 li i{
+    color: rgb(0, 177, 30);
+    margin-right: 10px;
+    text-align: justify;
+}
+.aboutself h2{
+     font-size: 18px;
+     padding-bottom: 10px;
+     color: #f7b318;
+}
+.aboutself p{
+    line-height: 30px;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    
+}
+.aboutself p span{
+    color: rgb(0, 177, 30);
+    font-size: 20px !important; 
+}
+.educationdetails h3{
+        font-size: 18px;
+        margin: 10px 0px;
+        text-transform: capitalize;
+}
+.educationdetails1{
+    display: flex;
+    justify-content: space-between;
+}
+.educationdetails1 h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.aboutimg1{
+    text-align: center;
+     
+      width: 250px;
+      /* padding: 10px; */
+     
+      text-align: center;
+   
+}
+.aboutimg1 p{
+     letter-spacing: 10px;
+     font-weight: 600;
+}
+.aboutimg1 img{
+     margin-bottom: -25px;
+}
+.aboutimg{
+    position: relative;
+   
+}
+
+.profileimg img{
+    border: solid 10px transparent;
+    border-right: outset 5px rgb(252, 161, 81);
+    border-bottom: outset 5px rgb(252, 161, 81);
+   
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50% 20%;
+    /* border-radius: 50%; */
+    /* width: 250px; */
+    height: 300px;
+   
+    box-shadow:5px 5px 10px rgb(33, 33, 33);
+    padding: 5px 15px 15px 5px;
+    transform: scale(1.09); 
+    
+    
+}
+
+#intrest1 ul {
+    margin-top: 20px;
+}
+#intrest1 ul li{
+   margin-top: 10px;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .aboutbox{
+        display: block;
+        
+    }
+    .aboutimg{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        padding-bottom: 10px;
+        border-bottom: solid rgb(154, 154, 154) 3px;
+    }
+    .abouttext{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .aboutimg1{
+        
+         
+          width: 100%;
+          
+    }
+
+}
+@media screen and (max-width:768px) and (min-width:576px) {
+    .aboutbox{
+        display: block;
+        
+    }
+    .aboutimg{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        padding-bottom: 10px;
+        border-bottom: solid rgb(154, 154, 154) 3px;
+    }
+    .abouttext{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .aboutimg1{
+        
+         
+          width: 100%;
+          
+    }
+
+}
+@media screen and (max-width:576px) {
+    .aboutbox{
+        display: block;
+        
+    }
+    .aboutimg{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        padding-bottom: 10px;
+        border-bottom: solid rgb(154, 154, 154) 3px;
+    }
+    .abouttext{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .aboutimg1{
+        
+         
+          width: 100%;
+          
+    }
+    .details1{
+          display: block;
+    }
+    .educationdetails1{
+        display: block;
+    }
+
+   
+    
+}
